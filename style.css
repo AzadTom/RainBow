@@ -1,0 +1,92 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: grid;
+    place-items: center; */
+
+
+
+}
+
+.container {
+    
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+.red {
+
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    z-index: 6;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.yellow {
+
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    z-index:5;
+    border-radius: 50%;
+    position: absolute;
+
+    
+
+}
+
+.blue {
+
+
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    z-index:4;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.purple {
+
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    z-index:3;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.green {
+
+    background: green;
+    width: 250px;
+    height: 250px;
+    z-index:2;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.sky {
+
+
+    width: 300px;
+    height: 300px;
+    z-index:1;
+    background-color: skyblue;
+    border-radius: 50%;
+    position: absolute;
+}
